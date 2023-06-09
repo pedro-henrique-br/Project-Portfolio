@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Gruppo-Regular;
+  src: url(/assets/Gruppo-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(27, 27, 27);
+}
+
+#sobre {
+  font-family: Gruppo-Regular;
+  color: #ff9532;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin: 0px 00px 650px;
+}
+
+.logo {
+  flex-shrink: 1 1 20px;
+  color: #ffff;
+  font-size: 2.2rem;
+  font-weight: 800;
+  font-family: Gruppo-Regular;
+  display: flex;
+  padding: 0px 20px 0px
+}
+
+.logo span {
+  color: rgb(235, 133, 0);
+  padding: 0px 10px 0px;
+}
+
+
+.container {
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(85, 85, 85)
+}
+
+.menuLinks {
+  padding: 0px 30px 0px;
+  display: flex;
+}
+
+
+.menuLinks a, .menuLinks li {
+  
+  flex-wrap: nowrap;
+  padding: 0px 20px 0px;
+  color: #ffff;
+  display: block;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 20px 20px 20px;
+  
+}
+
+.menuLinks a:hover {
+  background-color: #ffffff09;
+  border-radius: 10px;
+}
+
+
+.projects {
+  
+  margin: 300px 0px 900px;
+  justify-content: center;
+  display: flex;
+  padding: 100px 0 0px;
+  font-weight: 400;
+  font-family: Gruppo-Regular;
+  font-size: 3rem;
+  color: #ff9532;
+}
+
+#home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center ;
+
+}
+
+.text {
+  color: rgb(255, 255, 255);
+}
+
+.text1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  
+}
+
+.text2 {
+  color: #ff9532;
+  font-weight: 500;
+  font-size: 5rem;
+  font-family: Gruppo-Regular;
+}
+
+.text3 {
+  padding: 0 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+
+@media screen and (max-width: 900px){
+  .logo {
+    display: none;
+  }
+}
